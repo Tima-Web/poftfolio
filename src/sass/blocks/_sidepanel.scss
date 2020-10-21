@@ -9,9 +9,12 @@
     justify-content: space-between;
     z-index: 3;
     &__link {
+        svg path {
+            fill: $main-color;
+        }
         &:hover {
             svg path {
-                fill: $main-color;
+                fill: #7694e4;
             }
         }
     }
